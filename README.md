@@ -1,5 +1,5 @@
-# next_stay_coupon_1
-This is a temporary repo, to do manual operations for Next_Stay_Coupon_#1
+# next_stay_coupons
+This is a temporary repo, to do manual operations for Next_Stay_Coupons
 
 
 # to attach account_ids to the coupon
