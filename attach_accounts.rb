@@ -3,19 +3,19 @@ require 'json'
 
 case ARGV[0]
 when 'local'
-  coupon_id = 2929
+  coupon_id = 305
   url = "http://localhost:3001/v1/coupons/#{coupon_id}/accounts"
   data_file_location = 'data/account_ids_local.txt'
 when 'dev'
-  coupon_id = 499
+  coupon_id = 119
   url = "https://private-internal.internal.dev.tabist.co.jp/v1/coupons/#{coupon_id}/accounts"
   data_file_location = 'data/account_ids_dev.txt'
 when 'stg'
-  coupon_id = 509
+  coupon_id = 99999
   url = "https://private-internal.internal.stg.tabist.co.jp/v1/coupons/#{coupon_id}/accounts"
   data_file_location = 'data/account_ids_stg.txt'
 when 'prod'
-  coupon_id = 349
+  coupon_id = 99999
   url = "https://private-internal.internal.prod.tabist.co.jp/v1/coupons/#{coupon_id}/accounts"
   data_file_location = 'data/account_ids_prod.txt'
 else
